@@ -18,7 +18,14 @@ class Game {
 	}
 
 	public static void main(String[] args) throws Exception {
-		Controller.doBattle(new Winner2015a(), new Winner2016a());
+//		Controller.doBattle(new Winner2015a(), new Winner2016a());
+
+		int winner1 = Controller.doBattleNoGui(new SkinnerDavid(), new SittingDuck());
+//		int winner2 = Controller.doBattleNoGui(new SittingDuck(), new Winner2015b());
+//
+		System.out.println(winner1);
+//		System.out.println(winner2);
+
 		//Controller.doBattle(new Mixed(), new Blitz());
 		//Controller.doBattle(new Mixed(), new AggressivePack());
 		//Controller.doBattle(new Blitz(), new Mixed());
@@ -28,6 +35,6 @@ class Game {
 		//Controller.doBattle(new PrescientMoron(), new SittingDuck());
 		//Controller.doBattle(new PrescientMoron(), new Human());
 		//Controller.doBattle(new Human(), new PrescientMoron());
-		//fullTournament();
+//		fullTournament();
 	}
 }

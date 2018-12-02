@@ -20,7 +20,7 @@ class Winner2016a implements IAgent {
 	Winner2016a() throws Exception {
 		reset();
 		rndm = new Random();
-		image = ImageIO.read(new File("terrain.png"));
+		image = ImageIO.read(new File("src/terrain.png"));
 	}
 
 	public void reset() {

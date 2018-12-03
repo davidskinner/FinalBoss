@@ -20,10 +20,10 @@ class Game {
 	public static void main(String[] args) throws Exception {
 //		Controller.doBattle(new Winner2015a(), new Winner2016a());
 
-		int winner1 = Controller.doBattleNoGui(new SkinnerDavid(), new SittingDuck());
+//		int winner1 = Controller.doBattlenoGui(new SkinnerDavid(), new SittingDuck());
 //		int winner2 = Controller.doBattleNoGui(new SittingDuck(), new Winner2015b());
-//
-		System.out.println(winner1);
+		Controller.doBattle(new SkinnerDavid(), new SittingDuck());
+//		System.out.println(winner1);
 //		System.out.println(winner2);
 
 		//Controller.doBattle(new Mixed(), new Blitz());
